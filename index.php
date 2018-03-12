@@ -2,7 +2,7 @@
 
 //requiring the Crud Class
 require "./database/crud.php";
-$crud = new Crud();
+$crud = new Crud;
 
 //check if POST is empty or it will execute the save function
 if(isset($_POST['add_data'])){
